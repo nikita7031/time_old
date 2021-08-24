@@ -25,7 +25,7 @@ body{
 .time_center{
     display: flex;
     font-family: 'digital-7 (mono)';
-    font-size: 15rem;
+    font-size: 15em;
 }
 
 #current_date_time{
