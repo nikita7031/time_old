@@ -16,7 +16,6 @@ body{
 .background{
     height: 100vh;
     width: 100vw;
-    /* animation: backcolor 3s infinite; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,12 +29,13 @@ body{
 }
 
 #current_date_time{
+    position: absolute;
     color: rgb(0, 255, 191);
-    z-index: 1; 
+    z-index: 1;
+    filter: drop-shadow(0 0 7vw);
 }
 
 .time_center_background{
     color: rgb(16, 16, 16);
-    position: absolute;
     z-index: 0;
 }
