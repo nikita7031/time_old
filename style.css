@@ -1,0 +1,41 @@
+@font-face {
+    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "digital-7 (mono)";
+    /* адрес шрифта и тип  */
+    src: url("./digital-7 (mono).ttf");
+    /* font-style: normal; */
+    /* font-weight: normal; */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    /* animation: backcolor 3s infinite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.time_center{
+    display: flex;
+    font-family: 'digital-7 (mono)';
+    font-size: 15rem;
+}
+
+#current_date_time{
+    color: rgb(0, 255, 191);
+    z-index: 1;
+    filter: drop-shadow(0 0 7rem);   
+}
+
+.time_center_background{
+    color: rgb(16, 16, 16);
+    position: absolute;
+    z-index: 0;
+}
