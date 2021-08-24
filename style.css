@@ -31,8 +31,7 @@ body{
 
 #current_date_time{
     color: rgb(0, 255, 191);
-    z-index: 1;
-    filter: drop-shadow(0 0 10vw);   
+    z-index: 1; 
 }
 
 .time_center_background{
